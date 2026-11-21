@@ -3,134 +3,273 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Princess Atelier - Royal Princess Dresses & Stories</title>
-<meta name="description" content="Discover Europe's 10 most famous Royal Princesses & Princes, their dresses, stories and lifestyle. Princess Atelier - Royal Fashion.">
+<title>Princess Atelier 👑</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
-body{background:#fff5f8;color:#333}
-header{background:linear-gradient(135deg,#ff69b4,#8a2be2);color:#fff;padding:15px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-header h1{font-size:26px;letter-spacing:1px}
-header h1 span{color:#ffd700}
-nav a{color:#fff;text-decoration:none;margin-left:18px;font-weight:600;font-size:15px}
-.hero{text-align:center;padding:60px 20px;background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('hero.jpg');background-size:cover;background-position:center;color:#fff}
-.hero h2{font-size:42px;margin-bottom:10px}
-.hero p{font-size:18px;max-width:650px;margin:0 auto 20px}
-.btn{display:inline-block;background:#ffd700;color:#000;padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:bold}
-.section{padding:40px 20px;max-width:1200px;margin:auto}
-.section h2{text-align:center;font-size:32px;margin-bottom:8px;color:#8a2be2}
-.section p.sub{text-align:center;margin-bottom:30px;color:#666}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
-.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,.1);transition:.3s}
-.card:hover{transform:translateY(-6px)}
-.card img{width:100%;height:340px;object-fit:cover}
-.card-body{padding:18px}
-.card-body h3{font-size:21px;margin-bottom:5px}
-.card-body span{color:#ff69b4;font-weight:700;font-size:13px;text-transform:uppercase}
-.card-body p{font-size:14px;color:#666;margin:10px 0 15px;line-height:1.5}
-.detail-btn{background:#8a2be2;color:#fff;border:none;padding:11px 18px;width:100%;border-radius:10px;font-weight:bold;cursor:pointer;font-size:15px}
-.detail-btn:hover{background:#ff69b4}
-/* Modal */
-.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:200;overflow:auto}
-.modal-content{background:#fff;margin:5% auto;padding:30px;border-radius:18px;max-width:650px;position:relative}
-.modal-content img{width:100%;height:380px;object-fit:cover;border-radius:12px}
-.modal-content h2{margin:15px 0 5px;color:#8a2be2}
-.modal-content p{line-height:1.7;color:#444;margin-top:10px}
-.close{position:absolute;top:12px;right:18px;font-size:28px;cursor:pointer}
-footer{background:#222;color:#ddd;text-align:center;padding:35px 20px;margin-top:40px}
-footer a{color:#ffd700;text-decoration:none;margin:0 12px}
-.contact-box{background:#fff;padding:30px;border-radius:18px;box-shadow:0 5px 20px rgba(0,0,0,.08);max-width:650px;margin:30px auto}
-.contact-box input,.contact-box textarea{width:100%;padding:12px;margin:8px 0;border:1px solid #ddd;border-radius:10px}
-.contact-box button{background:#ff69b4;color:#fff;border:none;padding:13px;width:100%;border-radius:10px;font-weight:bold;cursor:pointer}
-@media(max-width:600px){.hero h2{font-size:30px} header{flex-direction:column;gap:10px}}
+*{box-sizing:border-box}
+body{font-family:Arial;background:#fff5f8;margin:0;text-align:center}
+header{background:linear-gradient(135deg,#ff69b4,#d63384);color:white;padding:50px 20px}
+header h1{font-size:42px;margin:0}
+.grid{display:flex;flex-wrap:wrap;justify-content:center;gap:25px;padding:25px}
+.card{background:white;width:330px;border-radius:18px;overflow:hidden;box-shadow:0 6px 15px rgba(0,0,0,0.15);text-align:left}
+.card img{width:100%;height:380px;object-fit:cover}
+.card-content{padding:18px}
+.card h2{color:#d63384;margin:0 0 5px;font-size:24px}
+.tag{background:#ffe0ec;color:#d63384;padding:4px 10px;border-radius:20px;font-size:13px;font-weight:bold}
+.bio{font-size:14px;line-height:1.8;color:#333;margin-top:12px}
+.bio b{color:#111}
+.section{margin-top:12px;background:#fff0f5;padding:10px;border-radius:10px}
+.section b{color:#d63384}
+button{background:#ff69b4;color:white;border:none;padding:10px;border-radius:20px;cursor:pointer;font-weight:bold;width:100%;margin-top:12px}
+footer{background:#222;color:white;padding:20px}
 </style>
 </head>
 <body>
 
 <header>
-<h1>👑 Princess <span>Atelier</span></h1>
-<nav>
-<a href="#princesses">Princesses</a>
-<a href="#about">About</a>
-<a href="#privacy">Privacy</a>
-<a href="#contact">Contact</a>
-</nav>
+<h1>👑 Princess Atelier 👑</h1>
+<p>Full Bio Data • Personal Life • Family • 2026</p>
 </header>
 
-<div class="hero">
-<h2>Europe's Most Famous Royal Princesses</h2>
-<p>Discover their Royal Dresses, Stories, Lifestyle & Secrets. The Most Beautiful Princesses of Europe in One Place.</p>
-<a href="#princesses" class="btn">Explore Princesses 👑</a>
-</div>
+<div class="grid">
 
-<div class="section" id="princesses">
-<h2>✨ Top 10 Royal Princesses & Princes</h2>
-<p class="sub">Click on View Details to read full story, dress style & royal life.</p>
-<div class="grid" id="grid"></div>
+<!-- 1. MAHIRA -->
+<div class="card">
+<img src="mahira.jpg">
+<div class="card-content">
+<h2>Princess Mahira 👑</h2>
+<span class="tag">Queen of Atelier • Pakistan</span>
+<div class="bio">
+<b>Full Name:</b> Princess Mahira<br>
+<b>Country:</b> Pakistan<br>
+<b>Title:</b> Queen of Princess Atelier<br>
+<b>Marital Status:</b> Single
+<div class="section">
+<b>❤️ Personal Life & Feelings:</b><br>
+Mahira bohat soft heart wali hai. Usay apni family se bohat pyar hai. Wo sab ka khayal rakhti hai, sab ko khush dekhna chahti hai. Uski feelings hamesha positive hain - kindness, love aur respect.
 </div>
-
-<div class="section" id="about">
-<h2>About Princess Atelier</h2>
-<p style="text-align:center;max-width:750px;margin:auto;line-height:1.8;color:#555">Princess Atelier is a royal fashion & lifestyle website for princess lovers in Europe. We share beautiful dresses, royal stories, and inspiration from real European Royal Families - Spain, UK, Sweden, Netherlands, Belgium, Denmark & Monaco.</p>
+<div class="section">
+<b>🎨 Hobbies:</b> Fashion, Makeup, Photography, Princess Dresses, Helping Others
 </div>
-
-<div class="section" id="privacy">
-<h2>Privacy Policy</h2>
-<p style="text-align:center;max-width:750px;margin:auto;line-height:1.8;color:#555">At Princess Atelier, we respect your privacy. We do not collect personal data without your permission. We use cookies to improve your experience. All images on this website are for educational & entertainment purposes. For any concern, contact us via the form below.</p>
+<div class="section">
+<b>👨‍👩‍👧 Family:</b> Loving Family in Pakistan. Husband / Wife: None - Single
 </div>
-
-<div class="section" id="contact">
-<h2>Contact Us</h2>
-<div class="contact-box">
-<p style="text-align:center;margin-bottom:10px">Email: <b>hello@princessatelier.com</b></p>
-<form onsubmit="alert('Thank you! Your message has been sent.');return false;">
-<input type="text" placeholder="Your Name" required>
-<input type="email" placeholder="Your Email" required>
-<textarea rows="4" placeholder="Your Message" required></textarea>
-<button type="submit">Send Message 💌</button>
-</form>
+</div>
+<button>View Full Profile</button>
 </div>
 </div>
 
-<footer>
-<p>© 2026 Princess Atelier. All Rights Reserved.</p><br>
-<a href="#privacy">Privacy Policy</a> | <a href="#contact">Contact Us</a> | <a href="#about">About Us</a>
-<p style="margin-top:15px;font-size:13px;color:#888">Made with ❤️ for Princess Lovers in Europe</p>
-</footer>
-
-<!-- DETAILS POPUP -->
-<div class="modal" id="modal">
-<div class="modal-content">
-<span class="close" onclick="closeModal()">×</span>
-<img id="mImg" src="">
-<h2 id="mName"></h2>
-<p id="mCountry" style="color:#ff69b4;font-weight:bold"></p>
-<p id="mDesc"></p>
-<p id="mDress"></p>
-<p id="mFact"></p>
+<!-- 2. LEONOR -->
+<div class="card">
+<img src="leonor.jpg">
+<div class="card-content">
+<h2>Princess Leonor</h2>
+<span class="tag">Spain • Future Queen</span>
+<div class="bio">
+<b>Full Name:</b> Leonor de Borbón y Ortiz<br>
+<b>Born:</b> 31 Oct 2005, Madrid • Age 21<br>
+<b>Father:</b> King Felipe VI • <b>Mother:</b> Queen Letizia<br>
+<b>Marital Status:</b> Single • Husband: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Leonor bohat serious aur responsible hai. Wo future Queen banne ki training le rahi hai. Usay apni choti behan Sofia se bohat pyar hai. Wo shy hai lekin confident bhi.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Horse Riding, Sailing, Reading, Languages, Military Training</div>
+</div>
+<button>View Full Profile</button>
 </div>
 </div>
 
-<script>
-const data=[
-{name:"Princess Leonor",country:"Spain 🇪🇸",img:"leonor.jpg",short:"Future Queen of Spain. Elegant & Royal.",desc:"Princess Leonor is the heir to the Spanish throne. She is known for her elegant style, intelligence and royal duties.",dress:"Dress Style: Royal Blue Gowns, Classic White Dresses, Military Uniform.",fact:"Fun Fact: She speaks 4 languages - Spanish, English, French & Catalan."},
-{name:"Princess Charlotte",country:"United Kingdom 🇬🇧",img:"charlotte.jpg",short:"Daughter of Prince William & Kate.",desc:"Princess Charlotte is one of the most loved princesses in the world. Her cute dresses always become viral.",dress:"Dress Style: Floral Dresses, Pink Gowns, Royal Coats.",fact:"Fun Fact: Her dresses sell out in minutes in UK shops!"},
-{name:"Princess Estelle",country:"Sweden 🇸🇪",img:"estelle.jpg",short:"Future Queen of Sweden.",desc:"Princess Estelle is the eldest child of Crown Princess Victoria. She is sweet, confident and loves royal events.",dress:"Dress Style: Pastel Gowns, Cute Tiaras, Swedish Traditional Dress.",fact:"Fun Fact: She is second in line to Swedish throne."},
-{name:"Princess Amalia",country:"Netherlands 🇳🇱",img:"amalia.jpg",short:"Future Queen of Netherlands.",desc:"Princess Amalia is the Princess of Orange. She is modern, stylish and loved by Dutch people.",dress:"Dress Style: Modern Gowns, Royal Blue, Elegant Evening Dresses.",fact:"Fun Fact: She took a gap year and loves singing."},
-{name:"Princess Elisabeth",country:"Belgium 🇧🇪",img:"elisabeth.jpg",short:"Future Queen of Belgium.",desc:"Princess Elisabeth is the Duchess of Brabant. She is studying at Oxford and is very talented.",dress:"Dress Style: Classic Royal Dresses, Red Gowns, Military Style.",fact:"Fun Fact: She is the first female heir in Belgium."},
-{name:"Prince George",country:"United Kingdom 🇬🇧",img:"george.jpg",short:"Future King of UK.",desc:"Prince George is the eldest son of Prince William. He is charming and already a royal icon.",dress:"Style: Royal Suits, Navy Blue Shorts, Classic Prince Outfits.",fact:"Fun Fact: His haircut becomes trend in UK!"},
-{name:"Prince Christian",country:"Denmark 🇩🇰",img:"christian.jpg",short:"Crown Prince of Denmark.",desc:"Prince Christian is the future King of Denmark. He is sporty, smart and royal.",dress:"Style: Royal Uniform, Modern Suits, Danish Royal Dress.",fact:"Fun Fact: He loves football and royal duties."},
-{name:"Prince Louis",country:"United Kingdom 🇬🇧",img:"louis.jpg",short:"The Cheeky Little Prince.",desc:"Prince Louis is famous for his funny faces at royal events. Everyone loves his cuteness.",dress:"Style: Cute Shorts, Blue Coats, Royal Baby Outfits.",fact:"Fun Fact: His funny moments go viral on TikTok!"},
-{name:"Prince Jacques",country:"Monaco 🇲🇨",img:"jacques.jpg",short:"Hereditary Prince of Monaco.",desc:"Prince Jacques is the son of Prince Albert II of Monaco. He lives in a real palace by the sea.",dress:"Style: White Royal Suits, Monaco Royal Outfits.",fact:"Fun Fact: He has a twin sister Princess Gabriella!"},
-{name:"Prince Oscar",country:"Sweden 🇸🇪",img:"oscar.jpg",short:"Little Prince of Sweden.",desc:"Prince Oscar is the younger brother of Princess Estelle. He is cute and loves royal parades.",dress:"Style: Cute Royal Suits, Blue Outfits.",fact:"Fun Fact: He is third in line to Swedish throne."}
-];
-let html="";
-data.forEach((p,i)=>{
-html+=`<div class="card"><img src="${p.img}" alt="${p.name}"><div class="card-body"><span>${p.country}</span><h3>${p.name}</h3><p>${p.short}</p><button class="detail-btn" onclick="openModal(${i})">View Full Details 👑</button></div></div>`;
-});
-document.getElementById('grid').innerHTML=html;
-function openModal(i){let p=data[i];document.getElementById('mImg').src=p.img;document.getElementById('mName').innerText=p.name;document.getElementById('mCountry').innerText=p.country;document.getElementById('mDesc').innerText=p.desc;document.getElementById('mDress').innerText=p.dress;document.getElementById('mFact').innerText=p.fact;document.getElementById('modal').style.display='block';}
-function closeModal(){document.getElementById('modal').style.display='none';}
-window.onclick=function(e){if(e.target==document.getElementById('modal')) closeModal();}
-</script>
+<!-- 3. CHARLOTTE -->
+<div class="card">
+<img src="charlotte.jpg">
+<div class="card-content">
+<h2>Princess Charlotte</h2>
+<span class="tag">United Kingdom • Age 11</span>
+<div class="bio">
+<b>Full Name:</b> Charlotte Elizabeth Diana<br>
+<b>Born:</b> 2 May 2015, London<br>
+<b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br>
+<b>Marital Status:</b> Child - Single • Husband: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Charlotte bohat confident aur funny hai. Wo apne bhaiyon ka bohat khayal rakhti hai. School me achi hai aur sab se pyar se milti hai.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Dancing, Gymnastics, Football, Drawing</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+<!-- 4. ESTELLE -->
+<div class="card">
+<img src="estelle.jpg">
+<div class="card-content">
+<h2>Princess Estelle</h2>
+<span class="tag">Sweden • Age 14</span>
+<div class="bio">
+<b>Full Name:</b> Estelle Silvia Ewa Mary<br>
+<b>Born:</b> 23 Feb 2012, Stockholm<br>
+<b>Father:</b> Prince Daniel • <b>Mother:</b> Crown Princess Victoria<br>
+<b>Marital Status:</b> Child - Single • Husband: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Estelle bohat sweet aur calm hai. Apne chotay bhai Oscar se bohat pyar karti hai. Wo apni mummy jaisi future Queen banna chahti hai.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Swimming, Skiing, Music, Nature</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+<!-- 5. AMALIA -->
+<div class="card">
+<img src="amalia.jpg">
+<div class="card-content">
+<h2>Princess Amalia</h2>
+<span class="tag">Netherlands • Age 22</span>
+<div class="bio">
+<b>Full Name:</b> Catharina-Amalia Beatrix Carmen Victoria<br>
+<b>Born:</b> 7 Dec 2003, The Hague<br>
+<b>Father:</b> King Willem-Alexander • <b>Mother:</b> Queen Máxima<br>
+<b>Marital Status:</b> Single • Husband: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Amalia bohat open aur honest hai. Usay apni behnon Alexia aur Ariane se bohat pyar hai. Wo normal student life jeena pasand karti hai, doston ke saath waqt guzarna.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Singing, Horse Riding, Travelling, Studying</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+<!-- 6. ELISABETH -->
+<div class="card">
+<img src="elisabeth.jpg">
+<div class="card-content">
+<h2>Princess Elisabeth</h2>
+<span class="tag">Belgium • Age 25</span>
+<div class="bio">
+<b>Full Name:</b> Elisabeth Thérèse Marie Hélène<br>
+<b>Born:</b> 25 Oct 2001, Brussels<br>
+<b>Father:</b> King Philippe • <b>Mother:</b> Queen Mathilde<br>
+<b>Marital Status:</b> Single • Husband: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Elisabeth bohat hardworking aur down-to-earth hai. Wo Oxford me parhti hai aur military training bhi ki hai. Apne bhai-behnon se bohat close hai.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Piano, Tennis, Running, Reading, Volunteering</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+<!-- 7. GEORGE -->
+<div class="card">
+<img src="george.jpg">
+<div class="card-content">
+<h2>Prince George</h2>
+<span class="tag">United Kingdom • Age 13</span>
+<div class="bio">
+<b>Full Name:</b> George Alexander Louis<br>
+<b>Born:</b> 22 July 2013, London<br>
+<b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br>
+<b>Marital Status:</b> Child - Single • Wife: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+George bohat calm aur responsible bara bhai hai. Wo apni behan Charlotte aur bhai Louis ka khayal rakhta hai.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Football, Tennis, Swimming, Helicopter Models</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+<!-- 8. CHRISTIAN -->
+<div class="card">
+<img src="christian.jpg">
+<div class="card-content">
+<h2>Prince Christian</h2>
+<span class="tag">Denmark • Age 21</span>
+<div class="bio">
+<b>Full Name:</b> Christian Valdemar Henri John<br>
+<b>Born:</b> 15 Oct 2005, Copenhagen<br>
+<b>Father:</b> King Frederik X • <b>Mother:</b> Queen Mary<br>
+<b>Marital Status:</b> Single • Wife: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Christian bohat sporty aur friendly hai. Apne behan-bhaiyon se bohat close hai. Future King ki zimmedari ko samajhta hai.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Football, Running, Sailing, Gym</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+<!-- 9. LOUIS -->
+<div class="card">
+<img src="louis.jpg">
+<div class="card-content">
+<h2>Prince Louis</h2>
+<span class="tag">United Kingdom • Age 8</span>
+<div class="bio">
+<b>Full Name:</b> Louis Arthur Charles<br>
+<b>Born:</b> 23 April 2018, London<br>
+<b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br>
+<b>Marital Status:</b> Child - Single • Wife: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Louis sab se zyada funny aur cute hai. Sab ko hasata hai. Apne bhai-behan se bohat pyar karta hai.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Playing, Dancing, Rugby, Drawing</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+<!-- 10. JACQUES -->
+<div class="card">
+<img src="jacques.jpg">
+<div class="card-content">
+<h2>Prince Jacques</h2>
+<span class="tag">Monaco • Age 11</span>
+<div class="bio">
+<b>Full Name:</b> Jacques Honoré Rainier Grimaldi<br>
+<b>Born:</b> 10 Dec 2014, Monaco<br>
+<b>Father:</b> Prince Albert II • <b>Mother:</b> Princess Charlene<br>
+<b>Twin Sister:</b> Princess Gabriella<br>
+<b>Marital Status:</b> Child - Single • Wife: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Jacques apni twin behan Gabriella ka best friend hai. Dono hamesha saath rehte hain.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Football, Swimming, Cycling</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+<!-- 11. OSCAR -->
+<div class="card">
+<img src="oscar.jpg">
+<div class="card-content">
+<h2>Prince Oscar</h2>
+<span class="tag">Sweden • Age 10</span>
+<div class="bio">
+<b>Full Name:</b> Oscar Carl Olof<br>
+<b>Born:</b> 2 March 2016, Stockholm<br>
+<b>Father:</b> Prince Daniel • <b>Mother:</b> Crown Princess Victoria<br>
+<b>Marital Status:</b> Child - Single • Wife: None
+<div class="section">
+<b>❤️ Personal Life:</b><br>
+Oscar bohat pyara aur curious bacha hai. Apni bari behan Estelle se bohat pyar karta hai.
+</div>
+<div class="section"><b>🎨 Hobbies:</b> Football, Lego, Nature Walks</div>
+</div>
+<button>View Full Profile</button>
+</div>
+</div>
+
+</div>
+<footer><p>© 2026 Princess Atelier • Made with Love by princessatelier</p></footer>
 </body>
   </html>
