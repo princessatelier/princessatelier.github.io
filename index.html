@@ -7,8 +7,12 @@
 <style>
 *{box-sizing:border-box}
 body{font-family:Arial;background:#fff5f8;margin:0;text-align:center}
-header{background:linear-gradient(135deg,#ff69b4,#d63384);color:white;padding:50px 20px}
+.smartbar{background:#111;padding:12px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px;position:sticky;top:0;z-index:999}
+.smartbar a{color:white;padding:9px 16px;border-radius:20px;text-decoration:none;font-weight:bold;font-size:14px}
+header{background:linear-gradient(135deg,#ff69b4,#d63384);color:white;padding:40px 20px}
 header h1{font-size:42px;margin:0}
+.banner{margin:0;background:#111;padding:15px}
+.banner img{width:100%;max-width:1000px;border-radius:15px}
 .grid{display:flex;flex-wrap:wrap;justify-content:center;gap:25px;padding:25px}
 .card{background:white;width:330px;border-radius:18px;overflow:hidden;box-shadow:0 6px 15px rgba(0,0,0,0.15);text-align:left}
 .card img{width:100%;height:380px;object-fit:cover}
@@ -16,260 +20,207 @@ header h1{font-size:42px;margin:0}
 .card h2{color:#d63384;margin:0 0 5px;font-size:24px}
 .tag{background:#ffe0ec;color:#d63384;padding:4px 10px;border-radius:20px;font-size:13px;font-weight:bold}
 .bio{font-size:14px;line-height:1.8;color:#333;margin-top:12px}
-.bio b{color:#111}
 .section{margin-top:12px;background:#fff0f5;padding:10px;border-radius:10px}
-.section b{color:#d63384}
-button{background:#ff69b4;color:white;border:none;padding:10px;border-radius:20px;cursor:pointer;font-weight:bold;width:100%;margin-top:12px}
+.watch-btn{display:block;background:linear-gradient(45deg,#ff0000,#ff69b4);color:white;text-align:center;padding:13px;border-radius:25px;text-decoration:none;font-weight:bold;margin-top:12px;font-size:16px}
+.socialbar{background:#111;padding:18px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.socialbar a{color:white;padding:10px 18px;border-radius:20px;text-decoration:none;font-weight:bold;font-size:14px}
 footer{background:#222;color:white;padding:20px}
 </style>
 </head>
 <body>
 
+<!-- SMART LINK BAR TOP -->
+<div class="smartbar">
+  <a href="https://auctionr.org/4/9a3388f3333dea73bb7a170ba2525e95" target="_blank" style="background:#ff69b4;">👑 Princess Atelier</a>
+  <a href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank" style="background:#25D366;">▶️ Watch Full Video</a>
+  <a href="https://auctionr.org/4/9a3388f3333dea73bb7a170ba2525e95" target="_blank" style="background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);">📸 Instagram</a>
+  <a href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank" style="background:#000;border:1px solid white;">🎵 TikTok</a>
+  <a href="https://auctionr.org/4/9a3388f3333dea73bb7a170ba2525e95" target="_blank" style="background:#25D366;">💬 WhatsApp</a>
+</div>
+
 <header>
 <h1>👑 Princess Atelier 👑</h1>
 <p>Full Bio Data • Personal Life • Family • 2026</p>
+<a href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank" style="display:inline-block;background:white;color:#d63384;padding:12px 25px;border-radius:25px;text-decoration:none;font-weight:bold;margin-top:15px;">▶️ Watch Full Video</a>
 </header>
+
+<!-- BANNER -->
+<div class="banner">
+<a href="https://auctionr.org/4/9a3388f3333dea73bb7a170ba2525e95" target="_blank">
+<img src="banner.jpg" alt="Princess Atelier Banner - Click to Watch">
+</a>
+<p style="color:white;margin:8px 0 0;">✨ Click Banner To Watch Full Video ✨</p>
+</div>
 
 <div class="grid">
 
-<!-- 1. MAHIRA -->
+<!-- MAHIRA CARD -->
 <div class="card">
 <img src="mahira.jpg">
 <div class="card-content">
 <h2>Princess Mahira 👑</h2>
 <span class="tag">Queen of Atelier • Pakistan</span>
 <div class="bio">
-<b>Full Name:</b> Princess Mahira<br>
 <b>Country:</b> Pakistan<br>
 <b>Title:</b> Queen of Princess Atelier<br>
 <b>Marital Status:</b> Single
-<div class="section">
-<b>❤️ Personal Life & Feelings:</b><br>
-Mahira bohat soft heart wali hai. Usay apni family se bohat pyar hai. Wo sab ka khayal rakhti hai, sab ko khush dekhna chahti hai. Uski feelings hamesha positive hain - kindness, love aur respect.
+<div class="section"><b>❤️ Personal Life:</b> Mahira bohat soft heart wali hai. Sab ka khayal rakhti hai, sab ko khush dekhna chahti hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Fashion, Makeup, Photography, Princess Dresses</div>
 </div>
-<div class="section">
-<b>🎨 Hobbies:</b> Fashion, Makeup, Photography, Princess Dresses, Helping Others
-</div>
-<div class="section">
-<b>👨‍👩‍👧 Family:</b> Loving Family in Pakistan. Husband / Wife: None - Single
-</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 2. LEONOR -->
+<!-- LEONOR -->
 <div class="card">
 <img src="leonor.jpg">
 <div class="card-content">
 <h2>Princess Leonor</h2>
-<span class="tag">Spain • Future Queen</span>
-<div class="bio">
-<b>Full Name:</b> Leonor de Borbón y Ortiz<br>
-<b>Born:</b> 31 Oct 2005, Madrid • Age 21<br>
-<b>Father:</b> King Felipe VI • <b>Mother:</b> Queen Letizia<br>
-<b>Marital Status:</b> Single • Husband: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Leonor bohat serious aur responsible hai. Wo future Queen banne ki training le rahi hai. Usay apni choti behan Sofia se bohat pyar hai. Wo shy hai lekin confident bhi.
+<span class="tag">Spain • Future Queen • Age 21</span>
+<div class="bio"><b>Father:</b> King Felipe VI • <b>Mother:</b> Queen Letizia<br><b>Marital Status:</b> Single
+<div class="section"><b>❤️ Personal Life:</b> Serious aur responsible, future Queen ki training le rahi hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Horse Riding, Sailing, Reading</div>
 </div>
-<div class="section"><b>🎨 Hobbies:</b> Horse Riding, Sailing, Reading, Languages, Military Training</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 3. CHARLOTTE -->
+<!-- CHARLOTTE -->
 <div class="card">
 <img src="charlotte.jpg">
 <div class="card-content">
 <h2>Princess Charlotte</h2>
 <span class="tag">United Kingdom • Age 11</span>
-<div class="bio">
-<b>Full Name:</b> Charlotte Elizabeth Diana<br>
-<b>Born:</b> 2 May 2015, London<br>
-<b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br>
-<b>Marital Status:</b> Child - Single • Husband: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Charlotte bohat confident aur funny hai. Wo apne bhaiyon ka bohat khayal rakhti hai. School me achi hai aur sab se pyar se milti hai.
+<div class="bio"><b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br><b>Marital Status:</b> Child - Single
+<div class="section"><b>❤️ Personal Life:</b> Confident aur funny, bhaiyon ka khayal rakhti hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Dancing, Gymnastics, Football</div>
 </div>
-<div class="section"><b>🎨 Hobbies:</b> Dancing, Gymnastics, Football, Drawing</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 4. ESTELLE -->
+<!-- ESTELLE -->
 <div class="card">
 <img src="estelle.jpg">
 <div class="card-content">
 <h2>Princess Estelle</h2>
 <span class="tag">Sweden • Age 14</span>
-<div class="bio">
-<b>Full Name:</b> Estelle Silvia Ewa Mary<br>
-<b>Born:</b> 23 Feb 2012, Stockholm<br>
-<b>Father:</b> Prince Daniel • <b>Mother:</b> Crown Princess Victoria<br>
-<b>Marital Status:</b> Child - Single • Husband: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Estelle bohat sweet aur calm hai. Apne chotay bhai Oscar se bohat pyar karti hai. Wo apni mummy jaisi future Queen banna chahti hai.
+<div class="bio"><b>Father:</b> Prince Daniel • <b>Mother:</b> Crown Princess Victoria<br><b>Marital Status:</b> Child - Single
+<div class="section"><b>❤️ Personal Life:</b> Sweet aur calm, apne bhai Oscar se bohat pyar karti hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Swimming, Skiing, Music</div>
 </div>
-<div class="section"><b>🎨 Hobbies:</b> Swimming, Skiing, Music, Nature</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 5. AMALIA -->
+<!-- AMALIA -->
 <div class="card">
 <img src="amalia.jpg">
 <div class="card-content">
 <h2>Princess Amalia</h2>
 <span class="tag">Netherlands • Age 22</span>
-<div class="bio">
-<b>Full Name:</b> Catharina-Amalia Beatrix Carmen Victoria<br>
-<b>Born:</b> 7 Dec 2003, The Hague<br>
-<b>Father:</b> King Willem-Alexander • <b>Mother:</b> Queen Máxima<br>
-<b>Marital Status:</b> Single • Husband: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Amalia bohat open aur honest hai. Usay apni behnon Alexia aur Ariane se bohat pyar hai. Wo normal student life jeena pasand karti hai, doston ke saath waqt guzarna.
+<div class="bio"><b>Father:</b> King Willem-Alexander • <b>Mother:</b> Queen Máxima<br><b>Marital Status:</b> Single
+<div class="section"><b>❤️ Personal Life:</b> Open aur honest, doston ke saath waqt guzarna pasand hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Singing, Horse Riding, Travelling</div>
 </div>
-<div class="section"><b>🎨 Hobbies:</b> Singing, Horse Riding, Travelling, Studying</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 6. ELISABETH -->
+<!-- ELISABETH -->
 <div class="card">
 <img src="elisabeth.jpg">
 <div class="card-content">
 <h2>Princess Elisabeth</h2>
 <span class="tag">Belgium • Age 25</span>
-<div class="bio">
-<b>Full Name:</b> Elisabeth Thérèse Marie Hélène<br>
-<b>Born:</b> 25 Oct 2001, Brussels<br>
-<b>Father:</b> King Philippe • <b>Mother:</b> Queen Mathilde<br>
-<b>Marital Status:</b> Single • Husband: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Elisabeth bohat hardworking aur down-to-earth hai. Wo Oxford me parhti hai aur military training bhi ki hai. Apne bhai-behnon se bohat close hai.
+<div class="bio"><b>Father:</b> King Philippe • <b>Mother:</b> Queen Mathilde<br><b>Marital Status:</b> Single
+<div class="section"><b>❤️ Personal Life:</b> Hardworking aur down-to-earth, Oxford me parhti hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Piano, Tennis, Running</div>
 </div>
-<div class="section"><b>🎨 Hobbies:</b> Piano, Tennis, Running, Reading, Volunteering</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 7. GEORGE -->
+<!-- GEORGE -->
 <div class="card">
 <img src="george.jpg">
 <div class="card-content">
 <h2>Prince George</h2>
 <span class="tag">United Kingdom • Age 13</span>
-<div class="bio">
-<b>Full Name:</b> George Alexander Louis<br>
-<b>Born:</b> 22 July 2013, London<br>
-<b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br>
-<b>Marital Status:</b> Child - Single • Wife: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-George bohat calm aur responsible bara bhai hai. Wo apni behan Charlotte aur bhai Louis ka khayal rakhta hai.
+<div class="bio"><b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br><b>Marital Status:</b> Child - Single
+<div class="section"><b>❤️ Personal Life:</b> Calm aur responsible bara bhai hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Football, Tennis, Swimming</div>
 </div>
-<div class="section"><b>🎨 Hobbies:</b> Football, Tennis, Swimming, Helicopter Models</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 8. CHRISTIAN -->
+<!-- CHRISTIAN -->
 <div class="card">
 <img src="christian.jpg">
 <div class="card-content">
 <h2>Prince Christian</h2>
 <span class="tag">Denmark • Age 21</span>
-<div class="bio">
-<b>Full Name:</b> Christian Valdemar Henri John<br>
-<b>Born:</b> 15 Oct 2005, Copenhagen<br>
-<b>Father:</b> King Frederik X • <b>Mother:</b> Queen Mary<br>
-<b>Marital Status:</b> Single • Wife: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Christian bohat sporty aur friendly hai. Apne behan-bhaiyon se bohat close hai. Future King ki zimmedari ko samajhta hai.
+<div class="bio"><b>Father:</b> King Frederik X • <b>Mother:</b> Queen Mary<br><b>Marital Status:</b> Single
+<div class="section"><b>❤️ Personal Life:</b> Sporty aur friendly, future King ki zimmedari samajhta hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Football, Running, Sailing</div>
 </div>
-<div class="section"><b>🎨 Hobbies:</b> Football, Running, Sailing, Gym</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 9. LOUIS -->
+<!-- LOUIS -->
 <div class="card">
 <img src="louis.jpg">
 <div class="card-content">
 <h2>Prince Louis</h2>
 <span class="tag">United Kingdom • Age 8</span>
-<div class="bio">
-<b>Full Name:</b> Louis Arthur Charles<br>
-<b>Born:</b> 23 April 2018, London<br>
-<b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br>
-<b>Marital Status:</b> Child - Single • Wife: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Louis sab se zyada funny aur cute hai. Sab ko hasata hai. Apne bhai-behan se bohat pyar karta hai.
+<div class="bio"><b>Father:</b> Prince William • <b>Mother:</b> Princess Catherine<br><b>Marital Status:</b> Child - Single
+<div class="section"><b>❤️ Personal Life:</b> Sab se zyada funny aur cute, sab ko hasata hai.</div>
+<div class="section"><b>🎨 Hobbies:</b> Playing, Dancing, Rugby</div>
 </div>
-<div class="section"><b>🎨 Hobbies:</b> Playing, Dancing, Rugby, Drawing</div>
-</div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 10. JACQUES -->
+<!-- JACQUES -->
 <div class="card">
 <img src="jacques.jpg">
 <div class="card-content">
 <h2>Prince Jacques</h2>
 <span class="tag">Monaco • Age 11</span>
-<div class="bio">
-<b>Full Name:</b> Jacques Honoré Rainier Grimaldi<br>
-<b>Born:</b> 10 Dec 2014, Monaco<br>
-<b>Father:</b> Prince Albert II • <b>Mother:</b> Princess Charlene<br>
-<b>Twin Sister:</b> Princess Gabriella<br>
-<b>Marital Status:</b> Child - Single • Wife: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Jacques apni twin behan Gabriella ka best friend hai. Dono hamesha saath rehte hain.
-</div>
+<div class="bio"><b>Father:</b> Prince Albert II • <b>Mother:</b> Princess Charlene<br><b>Marital Status:</b> Child - Single
+<div class="section"><b>❤️ Personal Life:</b> Apni twin behan Gabriella ka best friend hai.</div>
 <div class="section"><b>🎨 Hobbies:</b> Football, Swimming, Cycling</div>
 </div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
-<!-- 11. OSCAR -->
+<!-- OSCAR -->
 <div class="card">
 <img src="oscar.jpg">
 <div class="card-content">
 <h2>Prince Oscar</h2>
 <span class="tag">Sweden • Age 10</span>
-<div class="bio">
-<b>Full Name:</b> Oscar Carl Olof<br>
-<b>Born:</b> 2 March 2016, Stockholm<br>
-<b>Father:</b> Prince Daniel • <b>Mother:</b> Crown Princess Victoria<br>
-<b>Marital Status:</b> Child - Single • Wife: None
-<div class="section">
-<b>❤️ Personal Life:</b><br>
-Oscar bohat pyara aur curious bacha hai. Apni bari behan Estelle se bohat pyar karta hai.
-</div>
+<div class="bio"><b>Father:</b> Prince Daniel • <b>Mother:</b> Crown Princess Victoria<br><b>Marital Status:</b> Child - Single
+<div class="section"><b>❤️ Personal Life:</b> Pyara aur curious bacha, behan Estelle se bohat pyar karta hai.</div>
 <div class="section"><b>🎨 Hobbies:</b> Football, Lego, Nature Walks</div>
 </div>
-<button>View Full Profile</button>
+<a class="watch-btn" href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank">▶️ Watch Full Video</a>
 </div>
 </div>
 
 </div>
+
+<!-- SOCIAL BAR BOTTOM -->
+<div class="socialbar">
+  <a href="https://auctionr.org/4/9a3388f3333dea73bb7a170ba2525e95" target="_blank" style="background:#ff69b4;">👑 Princess Atelier</a>
+  <a href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank" style="background:#FF0000;">▶️ Watch Full Video</a>
+  <a href="https://auctionr.org/4/9a3388f3333dea73bb7a170ba2525e95" target="_blank" style="background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);">📸 Instagram</a>
+  <a href="https://asiafilm.org/4/dfd6f621bdbae49bf5b93f9ffb503d9f" target="_blank" style="background:#000;border:1px solid white;">🎵 TikTok</a>
+</div>
+
 <footer><p>© 2026 Princess Atelier • Made with Love by princessatelier</p></footer>
 </body>
   </html>
